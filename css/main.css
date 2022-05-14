@@ -2184,8 +2184,8 @@ pre code {
 .post-copyright ul {
   list-style: none;
   padding: 0.5em 1em;
-  background: var(--card-bg-color);
-  border-left: 3px solid #ff2a2a;
+  background: rgba(255,255,255,0.4);
+  border-left: 3px solid #8d0202;
   margin: 1em 0 0;
 }
 .post-tags {
@@ -2933,6 +2933,9 @@ body {
 }
 .sidebar {
   opacity: 0.8;
+}
+.comments.utterances-container {
+  background: rgba(255,255,255,0.8);
 }
 .header-inner {
   background: rgba(255,255,255,0.8);

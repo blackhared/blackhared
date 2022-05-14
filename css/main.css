@@ -2503,6 +2503,9 @@ ul.breadcrumb li:last-child {
   border-bottom-color: #8d0202;
   color: #8d0202;
 }
+.utterances {
+  max-width: unset;
+}
 .search-active {
   overflow: hidden;
 }
